@@ -15,6 +15,10 @@
         <item name="colorOnSurface">@color/colorOnSurface</item>
         <item name="colorOnError">@color/colorOnError</item>
 
+        <item name="shapeAppearanceSmallComponent">@style/AppSmallShapeAppearance</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppMediumShapeAppearance</item>
+        <item name="shapeAppearanceLargeComponent">@style/AppLargeShapeAppearance</item>
+
         <!--
             statusBarのColorは 1.1.0-alpha03 時点で対応していないため明示的に指定する必要がある
         -->
@@ -27,5 +31,17 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar.Primary" />
+
+    <style name="AppSmallShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="AppMediumShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="AppLargeShapeAppearance" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
 
 </resources>
