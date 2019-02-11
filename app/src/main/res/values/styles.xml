@@ -19,6 +19,20 @@
         <item name="shapeAppearanceMediumComponent">@style/AppMediumShapeAppearance</item>
         <item name="shapeAppearanceLargeComponent">@style/AppLargeShapeAppearance</item>
 
+        <item name="textAppearanceHeadline1">@style/AppTextAppearanceHeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/AppTextAppearanceHeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/AppTextAppearanceHeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/AppTextAppearanceHeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/AppTextAppearanceHeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/AppTextAppearanceHeadLine6</item>
+        <item name="textAppearanceSubtitle1">@style/AppTextAppearanceSubtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/AppTextAppearanceSubtitle2</item>
+        <item name="textAppearanceBody1">@style/AppTextAppearanceBody1</item>
+        <item name="textAppearanceBody2">@style/AppTextAppearanceBody2</item>
+        <item name="textAppearanceButton">@style/AppTextAppearanceButton</item>
+        <item name="textAppearanceCaption">@style/AppTextAppearanceCaption</item>
+        <item name="textAppearanceOverline">@style/AppTextAppearanceOverline</item>
+
         <!--
             statusBarのColorは 1.1.0-alpha03 時点で対応していないため明示的に指定する必要がある
         -->
