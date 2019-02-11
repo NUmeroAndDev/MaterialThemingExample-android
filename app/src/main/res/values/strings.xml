@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MaterialThemingExample</string>
+    <string name="action_info">Info</string>
     <string name="action_settings">Settings</string>
 </resources>
