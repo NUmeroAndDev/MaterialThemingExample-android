@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTextAppearanceHeadLine1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceHeadLine2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceHeadLine3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceHeadLine4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceHeadLine5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceHeadLine6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceSubtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceBody1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceBody2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceButton" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceCaption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+    <style name="AppTextAppearanceOverline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:fontFamily">@font/lemonada</item>
+    </style>
+
+</resources>

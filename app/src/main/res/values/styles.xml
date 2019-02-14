@@ -1,9 +1,42 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/AppSmallShapeAppearance</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppMediumShapeAppearance</item>
+        <item name="shapeAppearanceLargeComponent">@style/AppLargeShapeAppearance</item>
+
+        <item name="textAppearanceHeadline1">@style/AppTextAppearanceHeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/AppTextAppearanceHeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/AppTextAppearanceHeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/AppTextAppearanceHeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/AppTextAppearanceHeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/AppTextAppearanceHeadLine6</item>
+        <item name="textAppearanceSubtitle1">@style/AppTextAppearanceSubtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/AppTextAppearanceSubtitle2</item>
+        <item name="textAppearanceBody1">@style/AppTextAppearanceBody1</item>
+        <item name="textAppearanceBody2">@style/AppTextAppearanceBody2</item>
+        <item name="textAppearanceButton">@style/AppTextAppearanceButton</item>
+        <item name="textAppearanceCaption">@style/AppTextAppearanceCaption</item>
+        <item name="textAppearanceOverline">@style/AppTextAppearanceOverline</item>
+
+        <!--
+            statusBarのColorは 1.1.0-alpha03 時点で対応していないため明示的に指定する必要がある
+        -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -11,8 +44,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar.Primary" />
 
 </resources>
